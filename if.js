@@ -46,3 +46,9 @@ if (score >= 90) {
 
 console.log("점수는", score, "점 입니다");
 console.log(`점수는 ${score}점 입니다`);
+
+if ("    ".trim()) {
+  console.log("true입니다");
+} else {
+  console.log("false입니다");
+}
