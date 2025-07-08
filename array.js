@@ -71,3 +71,11 @@ const studentList = [
 // 1. 경덕님의 MBTI는?
 // 2. 관태님의 favoriteFoods 첫번째 음식은?
 // 3. 마지막 학생의 이름은?
+
+const stuentLen = studentList.length; // 3
+
+console.log(`1번 정답: ${studentList[0].mbti}`);
+console.log(`2번 정답: ${studentList[1].favoriteFoods[0]}`);
+console.log(`3번 정답: ${studentList[stuentLen - 1].name}`);
+
+// ----------------- 퀴즈 ---------------
